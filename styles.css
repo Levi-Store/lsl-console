@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+    background-color: black;
+    color: green;
+}
+
+#console {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+#header {
+    background-color: #222;
+    padding: 10px;
+    font-weight: bold;
+}
+
+#output {
+    flex: 1;
+    padding: 10px;
+    overflow-y: auto;
+    white-space: pre-wrap;
+}
+
+#input {
+    background-color: black;
+    color: green;
+    border: none;
+    padding: 10px;
+    font-size: 1em;
+    outline: none;
+    width: 100%;
+}
